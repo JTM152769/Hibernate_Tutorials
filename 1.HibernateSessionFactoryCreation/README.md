@@ -6,7 +6,7 @@ A SessionFactory is very expensive to create, so, for any given database, the ap
 SessionFactory . The SessionFactory maintains services that Hibernate uses across all Session(s) such as second level
 caches, connection pools, transaction system integrations, etc.
 
-#Session
+# Session
 A single-threaded, short-lived object conceptually modeling a "Unit of Work" PoEAA. In JPA nomenclature, the Session is
 represented by an EntityManager .
 Behind the scenes, the Hibernate Session wraps a JDBC java.sql.Connection and acts as a factory for
