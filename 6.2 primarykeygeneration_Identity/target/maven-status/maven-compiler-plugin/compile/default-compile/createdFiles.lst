@@ -1,0 +1,3 @@
+com/amitsa/client/App.class
+com/amitsa/util/HibernateUtil.class
+com/amitsa/entities/Employee.class
